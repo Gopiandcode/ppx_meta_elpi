@@ -1,0 +1,2 @@
+(executable (name ppx_meta_elpi)
+ (libraries elpi compiler-libs))
