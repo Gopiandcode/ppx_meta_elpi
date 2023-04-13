@@ -1,0 +1,6 @@
+(executable (name pp)
+ (libraries ppxlib ppx_elpi)
+ (modules pp))
+
+(cram
+  (deps ./pp.exe (glob_files resources/*.ml)))
